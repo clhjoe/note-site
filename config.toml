@@ -1,0 +1,11 @@
+baseurl = "http://clhjoe.github.io/"
+languageCode = "zh-tw"
+title = "Joe's Notes"
+theme = "purehugo"
+Paginate = 10
+
+[params]
+  githubName = "clhjoe"
+  linkedinName = "智霖-黃-00594981"
+  description = "Joe's Notes"
+  google_analytics = "UA-3749757-2"
