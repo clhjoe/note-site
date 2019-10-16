@@ -4,7 +4,9 @@ date: 2019-10-13T21:23:54+08:00
 draft: false
 ---
 
-[上一篇](https://clhjoe.github.io/posts/multi-stage-docker-build-with-go-module/) 說明了如何降低Docker 編譯Go程式產生的image大小，但同時也提到了因為Go 每次都會去抓相依的module導致編譯速度就是慢！有什麼方法可以加速呢？來看看看優化版本
+[上一篇](https://clhjoe.github.io/posts/multi-stage-docker-build-with-go-module/) 說明了如何降低Docker 編譯Go程式產生的image大小，但同時也提到了因為Go 每次都會去抓相依的module導致編譯速度就是慢！
+![go mod download](https://pg-media.ksmobile.com/production/material/file/all_90/1571203055.png)
+有什麼方法可以加速呢？來看看看優化版本
 
 **optimized.Dockerfile**
 ```dockerfile
