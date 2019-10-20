@@ -3,7 +3,7 @@ languageCode = "zh-tw"
 title = "Joe's Notes"
 theme = "purehugo"
 Paginate = 10
-
+disqusShortname="joes-blog-4"
 [params]
   githubName = "clhjoe"
   linkedinName = "智霖-黃-00594981"
