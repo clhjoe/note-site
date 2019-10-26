@@ -5,7 +5,7 @@ description: "網路連線中有各種timeout, connection timeout, readtimeout, 
 date:        2019-10-26
 author:      "Joe"
 image:       ""
-tags:        ["golang", "go","timeout","network","aws","mysql","rds"]
+tags:        ["golang", "go","timeout","network","aws","mysql","rds","redis"]
 draft: false
 
 ---
