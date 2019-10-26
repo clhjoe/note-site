@@ -1,11 +1,101 @@
 baseurl = "http://clhjoe.github.io/"
 languageCode = "zh-tw"
 title = "Joe's Notes"
-theme = "purehugo"
+theme = "hugo-theme-cleanwhite"
 Paginate = 10
+google_analytics = "UA-3749757-2"
 disqusShortname="joes-blog-4"
+#preserveTaxonomyNames = true
+pygmentsCodeFences=true
+pygmentsCodeFencesGuessSyntax=true
+pygmentsStyle="colorful"
+pygmentsUseClasses=true
+
 [params]
   githubName = "clhjoe"
   linkedinName = "智霖-黃-00594981"
   description = "備忘錄.."
-  google_analytics = "UA-3749757-2"
+  header_image = "https://pg-media.ksmobile.com/photo/middle/pg/20190529/7801925042630819841105394904.jpg"
+  SEOTitle = "Joe 的備忘錄 | Joe's Blog"
+  keyword = "backend,aws,docker,golang,tech,"
+  slogan = "Joe是我"
+
+  image_404 = ""
+  title_404 = "阿...這頁是空的 :("
+
+  # leancloud storage for page view counter
+  page_view_conter = false 
+  leancloud_app_id = ""
+  leancloud_app_key = ""
+
+  # algolia site search
+  algolia_search = false
+  algolia_appId = ""
+  algolia_indexName = ""
+  algolia_apiKey = ""
+
+  # Sidebar settings
+  sidebar_about_description = "Working with Golang and PHP. Extensive experience on AWS platform. Backend Lead at PhotoGrid. "
+  #sidebar_avatar = "img/avatar-zhaohuabing.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar_avatar = "https://pg-media.ksmobile.com/production/material/file/all_19/1572059725.JPG"      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+  featured_tags = true 
+  featured_condition_size = 0
+
+  # Baidu Analytics
+  ba_track_id = ""
+  
+  # We need a proxy to access Disqus api in China
+  # Follow https://github.com/zhaohuabing/disqus-php-api to set up your own disqus proxy
+  disqus_proxy = ""
+  disqus_site = ""
+
+  #Enable wechat pay & alipay to allow readers send reward money if they like the articles 
+  reward = true 
+  # reward_guide = "如果这篇文章对你有用,请随意打赏" 
+
+  friends = false
+  bookmarks = true
+  about_me = true
+
+  # Include any custom CSS and/or JS files, url or relative to /static folder
+  #custom_css = ["css/lightbox.css", "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css", "css/main.css"]
+  #custom_js = ["js/lightbox.js", "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js", "js/main.js"]
+
+  # Highlight.js theme
+  # demo: https://highlightjs.org/static/demo/
+  highlightjs = "docco"
+
+  [params.social]
+  rss            = true 
+  #email          = "youremail@gmail.com"
+  #facebook      = "full profile url in facebook"
+  #googleplus    = "full profile url in googleplus"
+  #twitter       = "full profile url in twitter"
+  linkedin       = "https://www.linkedin.com/in/智霖-黃-00594981"
+  #stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
+  #instagram     = "full profile url in instagram"
+  github         = "https://github.com/clhjoe"
+  #wechat         = ""
+#  medium         = "full profile url in medium"
+  #pinterest     = "full profile url in pinterest"
+  #reddit        = "full profile url in reddit"
+  #gitlab        = "full profile url in gitlab"
+  #mastodon      = "full profile url in mastodon"
+  #keybase       = "full profile url in keybase"
+  #git           = "full profile url for git user"
+  
+  #[[params.friend_link]]
+  #title = "Linda的博客"
+  #href =  "https://zhaozhihan.com"
+
+  [[params.bookmark_link]]
+  title =  "PhotoGrid"
+  href =  "https://www.photogrid.app"
+  
+  # [[params.addtional_menus]]
+  # title =  "BOOKS"
+  # href =  "/top/books/"
+  # [[params.addtional_menus]]
+  # title =  "ABOUT"
+  # href =  "/top/about/"

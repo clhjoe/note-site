@@ -2,6 +2,8 @@
 title: "Multi Stage Docker Build With Go Module"
 date: 2019-10-13T20:53:48+08:00
 draft: false
+tags: ["tips","docker","multi","stage","go","golang","go module"]
+description: "用docker編譯Golang的image又大又肥？透過multi-stage來縮小你的Image大小"
 ---
 
 ## 為什麼要使用Multi-stage來編譯Golang？

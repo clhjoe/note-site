@@ -2,11 +2,17 @@
 title: "Complete Example of Docker Build With Go Module"
 date: 2019-10-13T21:51:59+08:00
 draft: false
+tags: ["tips","linux","docker","golang"]
+description: "前兩篇介紹了使用multi-stage來降低docker image size 及 加速Docker編譯go 程式，但透過alpine會缺少一些API必要的ssl或tzdata等等的套件，這篇來分享完整的範例吧～"
 ---
 
+## 前言
 前兩篇 [使用multi-stage來降低docker image size](https://clhjoe.github.io/posts/multi-stage-docker-build-with-go-module/) 及 [加速Docker編譯go 程式](https://clhjoe.github.io/posts/speed-up-docker-build-with-go-module/) ，但透過alpine會缺少一些API必要的ssl或tzdata等等的套件，這篇來分享完整的範例吧～
 
-**dockerfile**
+## 舉個例子
+直接來看看Dockerfile, 注意步驟4跟步驟5。
+
+**Dockerfile**
 ```dockerfile
 #first stage - builder
 FROM golang:1.13.1-stretch as builder

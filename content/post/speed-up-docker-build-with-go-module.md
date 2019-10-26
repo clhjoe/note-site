@@ -2,6 +2,8 @@
 title: "Speed Up Docker Build With Go Module"
 date: 2019-10-13T21:23:54+08:00
 draft: false
+tags: ["tips","docker","multi","stage","go","golang","go module"]
+description: "使用小技巧來避免go 重新拉取module加快編譯速度"
 ---
 
 [上一篇](https://clhjoe.github.io/posts/multi-stage-docker-build-with-go-module/) 說明了如何降低Docker 編譯Go程式產生的image大小，但同時也提到了因為Go 每次都會去抓相依的module導致編譯速度就是慢！

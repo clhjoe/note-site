@@ -2,6 +2,8 @@
 title: "How to Use Hugo"
 date: 2019-10-13T19:57:19+08:00
 draft: false
+tags: ["tips","hugo"]
+description: "Hugo是一個靜態網頁產生的工具。你可以透過markdown編輯內容，透過現成的theme或自己撰寫，Hugo可以將你編輯的內容轉為靜態網頁。而放置這些靜態網頁最方便的方法莫過於github.io了"
 ---
 
 ## 甚麼是Hugo?
