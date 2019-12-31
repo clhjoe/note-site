@@ -1,5 +1,5 @@
 ---
-title: "Linux Dns Debug"
+title: "Linux DNS Debug"
 date: 2019-10-29T11:54:32+08:00
 draft: false
 tags: ["dns","linux","go","golang","aws"]
