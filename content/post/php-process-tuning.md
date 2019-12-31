@@ -2,7 +2,7 @@
 title: "PHP Process Tuning"
 date: 2019-12-31T22:24:10+08:00
 draft: false
-tags: ["tips","nginx","php","PHP-FPM"]
+tags: ["tips","nginx","php","PHP-FPM","tuning"]
 description: "PHP是常見的後端程式語言，在業務初期使用預設的配置通常不會有太大的問題。但是一旦業務開始成長後，沒有經過調校的配置不僅讓你的後端效能不彰更可能造成API access的錯誤。一起來了解怎麼調校你的PHP吧！"
 ---
 
